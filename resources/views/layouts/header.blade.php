@@ -5,10 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Laravel 8 CRUD Application</title>
-
+    @vite('resources/css/app.css')
     </header>
 
 <body>
+    <h1 class="text-3xl font-bold underline">
+        Hello world!
+      </h1>
+  
     <button class="logout">Logout</button>
     <button class="refresh">Refresh</button>
     <span class="notification"></span>
